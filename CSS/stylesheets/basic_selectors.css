@@ -1,0 +1,16 @@
+h1{
+    color: aqua;
+}
+
+#main-content{
+    border: 2px solid chocolate;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+.single-player{
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px;
+}
