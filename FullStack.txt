@@ -1,0 +1,200 @@
+HTML
+
+table tag ->
+
+<tr> defines a table row, serving as a container for the cells in that row.
+
+<td> represents a data cell, which holds the content within each row. 
+
+Non-semantic tags ->
+
+<div>
+
+<span>
+
+Semantic tags ->
+
+<header>
+
+<article>
+
+<footer>
+
+<section>
+
+<nav>
+
+<aside>
+
+<main>
+
+Note: SEO(search engine optimization) is better with semantic tags
+Note: &copy; to generate copyright symbol
+
+
+
+
+CSS
+
+Attributes:
+color - rgba has additional parameter for opacity
+background-color
+margin
+font-size
+font-family
+line-height
+font-weight: bold;
+font-style: italic;
+padding
+border
+background-image: url('image.jpg');
+background-size: cover;
+background-position: center;
+text-align: center;
+text-decoration: underline;
+letter-spacing
+
+
+Methods of applying CSS:
+(i) inline - placed in element, using style attribute, which needs styling
+(ii) internal - placed in header of file, within style tags, which needs styling
+(iii) External - placed in a different file
+
+
+Selectors ->
+Select specific elements
+
+Types->
+Element selector: Selects all elements of specific type, e.g. h1, p, div, etc.
+
+Class selector: Label multiple elements to style them consistently. Use a period (.)
+
+ID selector: Style element that appears only once (ID is unique, class is not). Use #
+
+
+
+Flexbox ->
+display: flex; - gives flex display to a container
+justify-content: ; - horizontal alignment
+align-items: ; - vertical alignment
+flex-direction: row/column;
+
+
+Grid ->
+display:grid;
+grid-template-columns: 1fr 2fr;   
+grid-template-rows: auto 100px;   
+grid-column-start: 1;
+grid-column-end: 4;
+
+
+Responsive Design ->
+
+Define breakpoints using @media - using min-width attribute
+
+Viewport meta tag
+
+
+
+Transitions and Animations ->
+
+transition-property
+transition-duration
+transition-timing-function
+
+@keyframes
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction
+animation-fill-mode
+animation-play-state
+
+
+
+
+JavaScript ->
+Can use <script> tags
+
+function function_name(){
+}
+
+Can implement function using <button> tag and onclick attribute
+
+
+
+Declaring variables ->
+var: function/global scope
+let: within the block
+const: within block, cannot be reassigned
+
+
+Event handlers ->
+
+onclick
+
+const buttons = document.querySelectorAll(".alert-button");
+
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      alert("Button clicked!");
+    });
+  });
+
+paragraph.addEventListener("mouseover", () => {
+            paragraph.textContent = "You hovered over me!";
+});
+
+paragraph.addEventListener("mouseout", () => {
+            paragraph.textContent = "Hover over me!";
+});
+
+
+
+DOM(Document Object Model) ->
+
+Modifying elements -> innerHTML, style, setAttribute
+
+
+
+Loops and conditionals ->
+if-else if and for loop statements, arrays same syntax as Java
+
+Array functions ->
+let fruits = ["apple", "banana"];
+fruits.push("orange");
+fruits.pop();
+fruits.shift(); - removes first element of array
+fruits.unshift("kiwi"); - adds element to beginning of array
+fruits.length
+
+
+
+Objects in JavaScript ->
+
+let person = {
+name: "Alice",
+age: 30,
+email: "alice@jmail.com"
+};
+
+To retrieve name - person.name/person["name"]
+
+To remove a property - delete person.email;
+
+Object.keys(person) - Output: ["name", "age", "country"]
+Object.values(person) - Output: ["Alice", 31, "USA"]
+Object.entries(person) - Output: [["name", "Alice"], ["age", 31], ["country", "USA"]]
+
+
+
+Libraries->
+E.g. jQuery
+
+Frameworks ->
+E.g. Angular, React
+
+
+
